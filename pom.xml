@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.0.0</version>
+    <version>3.5.8</version>
     <relativePath/>
     <!-- lookup parent from repository -->
   </parent>
@@ -29,8 +29,8 @@
   </scm>
   <properties>
     <java.version>25</java.version>
-    <spring-cloud.version>2025.1.0</spring-cloud.version>
-    <spring-function-catalog.version>5.1.1</spring-function-catalog.version>
+    <spring-cloud.version>2025.0.0</spring-cloud.version>
+    <spring-function-catalog.version>5.1.0</spring-function-catalog.version>
     <wiremock.version>4.0.0-beta.19</wiremock.version>
     <wiremock-spring-boot.version>4.0.8</wiremock-spring-boot.version>
   </properties>
@@ -52,10 +52,6 @@
       <groupId>org.springframework.cloud.fn</groupId>
       <artifactId>spring-http-request-function</artifactId>
       <version>${spring-function-catalog.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-webclient</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
